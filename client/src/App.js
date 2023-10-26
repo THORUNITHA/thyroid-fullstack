@@ -36,7 +36,7 @@ function ThyroidDetectionForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post('https://thorunitha-fullstack.onrender.com/predict', formData, {
+      .post('https://thyroid-ss1-64739381ce70.herokuapp.com/predict', formData, {
         headers: {
           'Content-Type': 'application/json', // Set the content type to JSON
         },
